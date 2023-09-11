@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int base, exp, result=1;
+	printf("enter the value of base:");
+	scanf("%d", &base);
+	printf("enter the value of exp :");
+	scanf("%d", &exp);
+	while(exp!=0)
+	{
+		result*=base;
+		exp--;
+	}
+	printf("result=%d", result);
+	return 0;
+}
